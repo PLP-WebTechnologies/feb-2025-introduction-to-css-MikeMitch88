@@ -1,0 +1,95 @@
+
+/* css style to the body element */
+body{
+    margin : 0;
+    padding : 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1{
+    text-align: center;
+    color: #ff5733;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+    color: #ff5733;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3{
+    color: #333;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* image design */
+img{
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 50px;
+    border: 3px solid #CCCCFF;
+}
+
+/* style to the audio/video elements  */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-align: space-between;
+    padding: 20px;
+    
+}
+/* css style to the table element */
+table {
+    width: 85%;
+    border-collapse: collapse;
+    margin: 20px 100px;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+/* styling the form */
+form{
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 3px solid #ffccf2;
+    border-radius: 5px;
+    width: 50%;
+}
+
+/* css style to the input element */
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* style to the button when hovered */
+button:hover {
+    background-color: #aed4b0;
+}
